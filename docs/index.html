@@ -17,6 +17,7 @@
     <div id="app"></div>
     <!-- Docsify JS -->
 
+    <!-- 配置必须写在 JS 前面！！！ -->
     <script>
       window.$docsify = {
         name: "STYLAN's Docs",
@@ -24,7 +25,14 @@
         loadSidebar: true, // 开启侧边栏
         loadNavbar: true, // 开启顶部导航
         subMaxLevel: 2, // 侧边栏展开层级
-        search: { placeholder: "搜索文档..." },
+        search: {
+          placeholder: "搜索文档...",
+          depth: 3, // 增加搜索深度，确保能搜到笔记
+        },
+        // 关键：解决本地加载路径问题
+        alias: {
+          "/.*/_sidebar.md": "/_sidebar.md",
+        },
       };
     </script>
 
