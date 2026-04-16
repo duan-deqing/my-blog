@@ -2,7 +2,7 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <title>我的笔记文档</title>
+    <title>STYLAN's Notes</title>
     <!-- Docsify CSS -->
     <link
       rel="stylesheet"
@@ -12,6 +12,11 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" />
     <link rel="apple-touch-icon" href="favicon.png" />
+    <style>
+      .sidebar-toggle::before {
+        display: none !important;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
@@ -25,14 +30,16 @@
         loadSidebar: true, // 开启侧边栏
         loadNavbar: true, // 开启顶部导航
         subMaxLevel: 2, // 侧边栏展开层级
-        search: {
-          placeholder: "搜索文档...",
-          depth: 3, // 增加搜索深度，确保能搜到笔记
-        },
-        // 关键：解决本地加载路径问题
         alias: {
           "/.*/_sidebar.md": "/_sidebar.md",
         },
+        search: {
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: "搜索",
+          depth: 2, // 增加搜索深度，确保能搜到笔记
+        },
+        // 关键：解决本地加载路径问题
       };
     </script>
 
