@@ -7,5 +7,5 @@
 
 ## 目录
 
-- [python 基础教程](/docs/python/python-tutorial-intro.md)
-- [AI](/docs/AI/README.md)
+- [python 基础教程](python/python-tutorial-intro.md)
+- [AI](AI/ai-tutotial-intro.md)
