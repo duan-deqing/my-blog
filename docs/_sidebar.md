@@ -1,7 +1,7 @@
 - [目录](/)
 - AI
   - [AI 学习笔记导览](AI/ai-tutotial-intro.md)
-  - [RAG 实现原理](AI/how-rag-works.md)
+  - [RAG 实现原理](AI/RAG/how-rag-works.md)
 - Python 教程
   - [01 Python-tutorial 介绍](python/python-tutorial-intro.md)
   - Python 基础 01
