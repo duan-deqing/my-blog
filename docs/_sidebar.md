@@ -1,4 +1,7 @@
 - [目录](/)
+- AI
+  - [AI 学习笔记导览](AI/ai-tutotial-intro.md)
+  - [RAG 实现原理](AI/how-rag-works.md)
 - Python 教程
   - [01 Python-tutorial 介绍](python/python-tutorial-intro.md)
   - Python 基础 01
@@ -18,12 +21,10 @@
     - [03 Python 集合](python/python_basic_03/03_python_set.md)
     - [04 Python 列表](python/python_basic_03/04_python_list.md)
     - [05 Python 函数](python/python_basic_03/05_python_func.md)
-    - 练习题
-      - [练习 1 数据结构练习题](python/python_basic_03/exercise/01-datastruct-test.md)
-      - [练习 2 函数使用](python/python_basic_03/exercise/02-function-test.md)
+  - 练习题
+    - [练习 1 数据结构练习题](python/python_basic_03/exercise/01-datastruct-test.md)
+    - [练习 2 函数使用](python/python_basic_03/exercise/02-function-test.md)
   - Python 基础 04
     - [01 Python 异常处理](python/python_basic_04/01_python_try_except.md)
     - [02 Python 模块](python/python_basic_04/02_python_module.md)
     - [03 Python 面向对象](python/python_basic_04/03_python_OOP.md)
-- AI
-  - [01 AI 介绍](AI/ai-tutotial-intro.md)
