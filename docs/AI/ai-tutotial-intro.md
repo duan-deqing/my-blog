@@ -2,4 +2,4 @@
 
 ## 目录
 
-- [RAG](./RAG/RAG_notes.md)
+- [RAG](./RAG/how-rag-works.md)
